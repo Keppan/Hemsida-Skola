@@ -1,5 +1,5 @@
 body {
-	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg);
+	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
 	background-repeat: no-repeat;
 
 } 
@@ -8,9 +8,8 @@ header {
 	height: 50px;
 }
 nav {
-	float: right;
+	float: right; /* Låter elementet flyta på högra delen utav websidan */
 	display: block;
-	list-style-type: none;
 	width: 700px;
 }
 nav li {
@@ -22,10 +21,10 @@ nav li {
 }
 nav li a {
 	text-decoration: none;
-	-webkit-transition width 2s height 4s;
-	transition: color .5s ease .0s, font-size 0.8s ease 0s;
+	-webkit-transition width 2s height 4s; /* Webkit som får Navigations-baren att "Flyta" */
+	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Hur snabbt Nav-baren Flyter */
 	color: rgba(255, 255, 255, 0.8);
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive; /* Font från nätet */
 }
 .container {
 	width: 570px;
@@ -35,22 +34,15 @@ nav li a {
 	position: static; ;
 	margin: 9% auto 0 auto;
 	padding: 12% auto 0 auto;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script', cursive; /* Font från nätet */
 }
 .container h2 {
 	font-size: 50px;
 	color: rgb(207, 250, 241);
 }
-nav li a:hover {
+nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
 	font-size: 35px;
 	color:orange;
-}
-nav li a:link {
-
-}
-.nav {
-	text-decoration: none;
-	color: red;
 }
 #text:hover {
 	color: orange;

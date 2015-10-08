@@ -36,14 +36,15 @@ nav li a {
 	padding: 12% auto 0 auto;
 	font-family: 'Kaushan Script', cursive; /* Font från nätet */
 }
-.container h2 {
-	font-size: 50px;
-	color: rgb(207, 250, 241);
-}
 nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
 	font-size: 35px;
 	color:orange;
 }
+#text{
+	font-size: 50px;
+	color: rgb(207, 250, 241);
+}
+
 #text:hover {
 	color: orange;
 }

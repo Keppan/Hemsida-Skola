@@ -1,36 +1,35 @@
-body {
-	background-image: url(https://wallpaperscraft.com/image/winter_sky_stars_nature_night_86857_1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
-	background-repeat: no-repeat;
-
+.Index{
+	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
+	background-repeat: no-repeat; /* Får bakgrunden att inte repetera sig. Alltså endast 1 bild! */
 } 
-header {
+.Index header {
 	width: 100%;
 	height: 50px;
 }
-nav {
+.Index nav {
 	float: right; /* Låter elementet flyta på högra delen utav websidan */
 	display: block;
 	width: 700px;
 }
-nav li {
+.Index nav li {
 	font-size: 18px;
 	display: inline-block;
 	float: right;
 	margin: 0 20px 0 15px;
 	position: relative;
 }
-nav li a {
+.Index nav li a {
 	text-decoration: none;
 	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
 	color: yellow;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px black; /* Skuggning på text */
 	font-family: 'Lobster', cursive; /* Font från nätet */
 }
-nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+.Index nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
 	font-size: 35px;
 	color:orange;
 }
-.container {
+.Container1 {
 	width: 570px;
 	height: 500px;
 	display: block;
@@ -44,32 +43,17 @@ nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-b
 	font-size: 50px;
 	color: rgb(207, 250, 241);
 	text-shadow: 2px 2px 2px black;
-	transition: color .5s ease .0s, font-size 0.8s ease 0s;
+	transition: color .2s ease .0s, font-size 0.8s ease 0s;
+	padding: 10% 10% 10% 10%;
+
 }
 
 #MainContent1:hover {
-	color: orange;
-
-}
-.Content1 {
-	position: fixed;
-	width: 570px;
-	height: 50px;
 	color: rgba(0,0,0,0.0);
-	background-color: rgba(0, 0, 0, 0.5);
-	text-align: center;
-	border:5px solid lightblue;
-	border-radius: 25px;
-	box-shadow: 3px 3px 2px black;
-	transition: height 2s, color 2s ease 0s;
-}
-.Content1:hover{
-	height: 300px;
-	color: white;
-	border-color: orange;
-	transition: height 2s, color 2s ease 0s;
-}
-#Text1 {
-	position: relative;
-	padding-top: 5%
+	text-shadow: 0px 0px 0px;
+	background-image: url(http://pre06.deviantart.net/97f1/th/pre/i/2013/162/9/2/trollface_in_hd_by_lemmino-d68o3nl.png);
+	background-size: 180px;
+	background-position: center;
+	background-repeat: no-repeat;
+
 }

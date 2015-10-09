@@ -1,5 +1,5 @@
 body {
-	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
+	background-image: url(https://wallpaperscraft.com/image/winter_sky_stars_nature_night_86857_1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
 	background-repeat: no-repeat;
 
 } 
@@ -21,10 +21,14 @@ nav li {
 }
 nav li a {
 	text-decoration: none;
-	-webkit-transition width 2s height 4s; /* Webkit som får Navigations-baren att "Flyta" */
-	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Hur snabbt Nav-baren Flyter */
-	color: rgba(255, 255, 255, 0.8);
+	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
+	color: yellow;
+	text-shadow: 2px 2px 2px black;
 	font-family: 'Lobster', cursive; /* Font från nätet */
+}
+nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+	font-size: 35px;
+	color:orange;
 }
 .container {
 	width: 570px;
@@ -36,15 +40,36 @@ nav li a {
 	padding: 12% auto 0 auto;
 	font-family: 'Kaushan Script', cursive; /* Font från nätet */
 }
-nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
-	font-size: 35px;
-	color:orange;
-}
-#text{
+#MainContent1{
 	font-size: 50px;
 	color: rgb(207, 250, 241);
+	text-shadow: 2px 2px 2px black;
+	transition: color .5s ease .0s, font-size 0.8s ease 0s;
 }
 
-#text:hover {
+#MainContent1:hover {
 	color: orange;
+
+}
+.Content1 {
+	position: fixed;
+	width: 570px;
+	height: 50px;
+	color: rgba(0,0,0,0.0);
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	border:5px solid lightblue;
+	border-radius: 25px;
+	box-shadow: 3px 3px 2px black;
+	transition: height 2s, color 2s ease 0s;
+}
+.Content1:hover{
+	height: 300px;
+	color: white;
+	border-color: orange;
+	transition: height 2s, color 2s ease 0s;
+}
+#Text1 {
+	position: relative;
+	padding-top: 5%
 }

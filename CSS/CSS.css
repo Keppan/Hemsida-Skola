@@ -57,3 +57,51 @@
 	background-repeat: no-repeat;
 
 }
+audio {
+	position: relative;
+}
+.Coolasaker {
+	background-image: url(https://i.gyazo.com/623a5a8a195d910da390db72cff24b99.gif);
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 500px;
+}
+.Coolasaker header {
+	float: left; /* Låter elementet flyta på högra delen utav websidan */
+	height: 500px;
+	width: 350px;
+	background-color: rgba(0,0,0,0.5);
+}
+.Coolasaker nav {
+	float: left; /* Låter elementet flyta på högra delen utav websidan */
+	height: 500px;
+	width: 1000px;
+}
+.Coolasaker nav ul {
+	margin: 200 0px 0px 0px;
+	color:black;
+}
+.Coolasaker nav li {
+	font-size: 30px;
+	display: inherit;
+	margin: 0 20px 0 15px;
+	position: relative;
+}
+.Coolasaker nav li {
+	margin: 50px 0 50px 0;
+}
+.Coolasaker nav li a {
+	text-decoration: none;
+	transition: color .1s ease .0s, font-size 0.1s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
+	color: yellow;
+	text-shadow: 2px 2px 2px black; /* Skuggning på text */
+	font-family: 'Lobster', cursive; /* Font från nätet */
+
+}
+.Coolasaker span a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+	font-size: 80px;
+	color:orange;
+}
+span {
+	
+}

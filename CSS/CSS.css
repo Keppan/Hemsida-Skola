@@ -1,7 +1,7 @@
 .Index{
-	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
+	background-image: url(../files/IndexWallpaper.jpg); /* En bakgrundsbild som länkats till sidan */
 	background-repeat: no-repeat; /* Får bakgrunden att inte repetera sig. Alltså endast 1 bild! */
-	background-size: 100% 1080px;
+	background-size:cover;
 } 
 .Index header {
 	width: 100%;
@@ -52,13 +52,13 @@
 #MainContent1:hover {
 	color: rgba(0,0,0,0.0);
 	text-shadow: 0px 0px 0px;
-	background-image: url(http://pre06.deviantart.net/97f1/th/pre/i/2013/162/9/2/trollface_in_hd_by_lemmino-d68o3nl.png);
+	background-image: url(../files/Trollface.png);
 	background-size: 180px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .Coolasaker {
-	background-image: url(https://i.gyazo.com/623a5a8a195d910da390db72cff24b99.gif);
+	background-image: url(../files/Coolasaker.gif);
 	background-repeat: repeat;
 	background-position: center;
 	background-size: 500px;
@@ -109,12 +109,14 @@
 	position: static;
 }
 .Container2:hover {
-	background-image: url(https://lh6.googleusercontent.com/-MLdC4eLCDTE/Uytjs317XnI/AAAAAAAAAF0/0y6USZJx2yA/s0-d/quickscope.gif);
+	background-image: url(../files/quickscope.gif);
 	background-size: 800px;
 	background-repeat: no-repeat;
 }
 .Info {
 	background-image: url(http://p1.pichost.me/i/9/1320488.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 .Info header {
 	width: 100%;

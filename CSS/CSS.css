@@ -1,6 +1,7 @@
 .Index{
 	background-image: url(http://www.kucuu.com/desktop-wallpaper-home/Cosmic-Space-HD-desktop-wallpaper-1920x1080.jpg); /* En bakgrundsbild som länkats till sidan */
 	background-repeat: no-repeat; /* Får bakgrunden att inte repetera sig. Alltså endast 1 bild! */
+	background-size: 100% 1080px;
 } 
 .Index header {
 	width: 100%;
@@ -55,10 +56,6 @@
 	background-size: 180px;
 	background-position: center;
 	background-repeat: no-repeat;
-
-}
-audio {
-	position: relative;
 }
 .Coolasaker {
 	background-image: url(https://i.gyazo.com/623a5a8a195d910da390db72cff24b99.gif);
@@ -71,6 +68,7 @@ audio {
 	height: 500px;
 	width: 350px;
 	background-color: rgba(0,0,0,0.5);
+	border-radius: 35px;
 }
 .Coolasaker nav {
 	float: left; /* Låter elementet flyta på högra delen utav websidan */
@@ -99,9 +97,70 @@ audio {
 
 }
 .Coolasaker span a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
-	font-size: 80px;
+	font-size: 50px;
 	color:orange;
 }
-span {
-	
+#Hodor:hover {
+	font-size: 80px;
+}
+.Container2 {
+	width: 1000px;
+	height: 1000px;
+	position: static;
+}
+.Container2:hover {
+	background-image: url(https://lh6.googleusercontent.com/-MLdC4eLCDTE/Uytjs317XnI/AAAAAAAAAF0/0y6USZJx2yA/s0-d/quickscope.gif);
+	background-size: 800px;
+	background-repeat: no-repeat;
+}
+.Info {
+	background-image: url(http://p1.pichost.me/i/9/1320488.jpg);
+}
+.Info header {
+	width: 100%;
+	height: 50px;
+}
+.Info nav {
+	float: right; /* Låter elementet flyta på högra delen utav websidan */
+	display: block;
+	width: 700px;
+}
+.Info nav li {
+	font-size: 18px;
+	display: inline-block;
+	float: right;
+	margin: 0 20px 0 15px;
+	position: relative;
+}
+.Info nav li a {
+	text-decoration: none;
+	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
+	color: orange;
+	text-shadow: 2px 2px 2px black; /* Skuggning på text */
+	font-family: 'Lobster', cursive; /* Font från nätet */
+}
+.Info nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+	font-size: 35px;
+	color:yellow;
+}
+.Container3 {
+	height: 50%;
+	width: 99%;
+	position: fixed;
+	text-align: center;
+}
+.Wrapper {
+	height: 500px;
+	width: 500px;
+	background-color: rgba(255,255,255,0.7);
+	position: fixed;
+	margin: 2% 0% 0% 37%;
+	border-radius: 35px;
+	border: 20px;
+	border-color: white;
+	box-shadow: 2px 2px 50px white;
+	font-family: 'Poiret One', cursive;
+}
+#MainContent3 {
+	margin: 50px;
 }

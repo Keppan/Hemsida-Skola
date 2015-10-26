@@ -3,30 +3,30 @@
 	background-repeat: no-repeat; /* Får bakgrunden att inte repetera sig. Alltså endast 1 bild! */
 	background-size:cover;
 } 
-.Index header {
+ header {
 	width: 100%;
 	height: 50px;
 }
-.Index nav {
+.nav {
 	float: right; /* Låter elementet flyta på högra delen utav websidan */
 	display: block;
 	width: 700px;
 }
-.Index nav li {
+.nav li {
 	font-size: 18px;
 	display: inline-block;
 	float: right;
 	margin: 0 20px 0 15px;
 	position: relative;
 }
-.Index nav li a {
+.nav li a {
 	text-decoration: none;
 	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
 	color: yellow;
 	text-shadow: 2px 2px 2px black; /* Skuggning på text */
 	font-family: 'Lobster', cursive; /* Font från nätet */
 }
-.Index nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+.nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
 	font-size: 35px;
 	color:orange;
 }
@@ -56,12 +56,19 @@
 	background-size: 180px;
 	background-position: center;
 	background-repeat: no-repeat;
+	cursor: default;
+	
 }
+
+/* Här börjar Coola saker sidan */
+
 .Coolasaker {
 	background-image: url(../files/Coolasaker.gif);
 	background-repeat: repeat;
-	background-position: center;
-	background-size: 500px;
+	background-position:initial; 
+	background-size: 100%;
+	position: fixed;
+
 }
 .Coolasaker header {
 	float: left; /* Låter elementet flyta på högra delen utav websidan */
@@ -69,11 +76,13 @@
 	width: 350px;
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 35px;
+
 }
 .Coolasaker nav {
-	float: left; /* Låter elementet flyta på högra delen utav websidan */
+	float: left;
 	height: 500px;
 	width: 1000px;
+
 }
 .Coolasaker nav ul {
 	margin: 200 0px 0px 0px;
@@ -81,9 +90,9 @@
 }
 .Coolasaker nav li {
 	font-size: 30px;
-	display: inherit;
+	list-style-type: none;
 	margin: 0 20px 0 15px;
-	position: relative;
+	position: static;
 }
 .Coolasaker nav li {
 	margin: 50px 0 50px 0;
@@ -96,7 +105,7 @@
 	font-family: 'Lobster', cursive; /* Font från nätet */
 
 }
-.Coolasaker span a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
+.Coolasaker a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
 	font-size: 50px;
 	color:orange;
 }
@@ -104,45 +113,32 @@
 	font-size: 80px;
 }
 .Container2 {
-	width: 1000px;
-	height: 1000px;
-	position: static;
+	width: 10px;
+	height: 10px;
+	position: fixed;
+	float: left;
 }
 .Container2:hover {
 	background-image: url(../files/quickscope.gif);
-	background-size: 800px;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
 	background-repeat: no-repeat;
+	transition: height 0s;
+	cursor: crosshair;
 }
+
+/* Här börjar Info sidan */
+
 .Info {
 	background-image: url(http://p1.pichost.me/i/9/1320488.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 }
-.Info header {
-	width: 100%;
-	height: 50px;
+.infonav a {
+	color:orange;
 }
-.Info nav {
-	float: right; /* Låter elementet flyta på högra delen utav websidan */
-	display: block;
-	width: 700px;
-}
-.Info nav li {
-	font-size: 18px;
-	display: inline-block;
-	float: right;
-	margin: 0 20px 0 15px;
-	position: relative;
-}
-.Info nav li a {
-	text-decoration: none;
-	transition: color .5s ease .0s, font-size 0.8s ease 0s; /* Detta kommando deklarerar hur snabbt Nav-baren "Flyter" */
-	color: orange;
-	text-shadow: 2px 2px 2px black; /* Skuggning på text */
-	font-family: 'Lobster', cursive; /* Font från nätet */
-}
-.Info nav li a:hover { /* Här anges vad som skall ske när man drar musen över Nav-baren */
-	font-size: 35px;
+.infonav a:hover  {
 	color:yellow;
 }
 .Container3 {
